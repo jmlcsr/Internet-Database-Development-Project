@@ -1,0 +1,34 @@
+/**
+ * Team: 占位符小组, NKU
+ * Coding by: 张得涵 2311383
+ * Styles for Hero Details and General Military Theme
+ */
+
+.hero-detail-header {
+    border-bottom: 5px solid #e74c3c;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.hero-name {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 36px;
+}
+.story-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    line-height: 2;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+.info-label {
+    background: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #e74c3c;
+    margin-bottom: 15px;
+}
+.info-label b { color: #e74c3c; margin-right: 10px; }
+.btn-back { margin-top: 20px; }
