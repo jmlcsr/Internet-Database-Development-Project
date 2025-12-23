@@ -12,6 +12,8 @@
  File Encoding         : 65001
 
  Date: 21/12/2025 22:05:25
+
+ 
 */
 
 -- 创建数据库（如果不存在）
@@ -39,9 +41,22 @@ CREATE TABLE `assignment`  (
 -- ----------------------------
 -- Records of assignment
 -- ----------------------------
-INSERT INTO `assignment` VALUES (1, '2311383_张得涵_作业1.rar', '2311383_张得涵_作业1.rar', 'team', '张得涵');
-INSERT INTO `assignment` VALUES (2, '2311383_张得涵_作业2.rar', '2311383_张得涵_作业1.rar', 'team', '张得涵');
-INSERT INTO `assignment` VALUES (3, '2311383_张得涵_作业3.rar', '2311383_张得涵_作业3.rar', 'team', '张得涵');
+INSERT INTO `assignment` VALUES (1, '2311383_张得涵_作业1.rar', '2311383_张得涵_作业1.rar', 'personal', '张得涵');
+INSERT INTO `assignment` VALUES (2, '2311383_张得涵_作业2.rar', '2311383_张得涵_作业1.rar', 'personal', '张得涵');
+INSERT INTO `assignment` VALUES (3, '2311383_张得涵_作业3.rar', '2311383_张得涵_作业3.rar', 'personal', '张得涵');
+INSERT INTO `assignment` VALUES (4, '占位符小组_设计文档(2311383_2311062_2310412).pdf', '占位符小组_设计文档(2311383_2311062_2310412).pdf', 'team', '张得涵');
+INSERT INTO `assignment` VALUES (5, '占位符小组_实现文档(2311383_2311062_2310412).pdf', '占位符小组_实现文档(2311383_2311062_2310412).pdf', 'team', '张得涵');
+INSERT INTO `assignment` VALUES (6, '占位符小组_需求文档(2311383_2311062_2310412).pdf', '占位符小组_需求文档(2311383_2311062_2310412).pdf', 'team', '张得涵');
+INSERT INTO `assignment` VALUES (7, '占位符⼩组_部署⽂档(2311383_2311062_2310412).pdf', '占位符⼩组_部署⽂档(2311383_2311062_2310412).pdf', 'team', '刘孙延');
+INSERT INTO `assignment` VALUES (8, '占位符⼩组_⽤户⼿册(2311383_2311062_2310412).pdf', '占位符⼩组_⽤户⼿册(2311383_2311062_2310412).pdf', 'team', '刘孙延');
+INSERT INTO `assignment` VALUES (9, '作业1(2310412_郝普瑞).zip', '作业1(2310412_郝普瑞).zip', 'personal', '郝普瑞');
+INSERT INTO `assignment` VALUES (10, '作业2(2310412_郝普瑞).zip', '作业2(2310412_郝普瑞).zip', 'personal', '郝普瑞');
+INSERT INTO `assignment` VALUES (11, '作业3(2310412_郝普瑞).zip', '作业3(2310412_郝普瑞).zip', 'personal', '郝普瑞');
+INSERT INTO `assignment` VALUES (12, '作业1（2311062_刘孙延）.zip', '作业1（2311062_刘孙延）.zip', 'personal', '刘孙延');
+INSERT INTO `assignment` VALUES (13, '作业2（2311062_刘孙延）.zip', '作业2（2311062_刘孙延）.zip', 'personal', '刘孙延');
+INSERT INTO `assignment` VALUES (14, '作业3（2311062_刘孙延）.zip', '作业3（2311062_刘孙延）.zip', 'personal', '刘孙延');
+INSERT INTO `assignment` VALUES (15, '占位符⼩组_录屏讲解(2311383_2311062_2310412).mp4', '占位符⼩组_录屏讲解(2311383_2311062_2310412).mp4', 'team', '郝普瑞');
+INSERT INTO `assignment` VALUES (16, '占位符⼩组_项目展示(2311383_2311062_2310412).pptx', '占位符⼩组_项目展示(2311383_2311062_2310412).pptx', 'team', '郝普瑞');
 
 -- ----------------------------
 -- Table structure for battle
@@ -232,9 +247,9 @@ CREATE TABLE `team_member`  (
 -- ----------------------------
 -- Records of team_member
 -- ----------------------------
-INSERT INTO `team_member` VALUES (1, '王二麻子', '2310086', '占位符');
-INSERT INTO `team_member` VALUES (2, '张得涵', '2311383', '占位符');
-INSERT INTO `team_member` VALUES (3, '李四', '2336888', '占位符');
+INSERT INTO `team_member` VALUES (1, '郝普瑞', '2310412', '数据库建模设计、纪念场馆页面设计与控制逻辑实现、图像资料与史料收集、网页测试');
+INSERT INTO `team_member` VALUES (2, '张得涵', '2311383', 'Yii2环境搭建、多个等模块开发、部署脚本编写、Chart.js表格编写、留言审核系统实现、若干文档编写');
+INSERT INTO `team_member` VALUES (3, '刘孙延', '2311062', '战役录逻辑开发、时间轴视图优化、用户手册与部署文档的编写、编码格式的优化、代码结构改正');
 
 -- ----------------------------
 -- Table structure for timeline_event
